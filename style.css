@@ -1,0 +1,175 @@
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #212121;
+  color: white;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #BBDEFB;
+}
+
+/* Main content styles */
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin-top: 50px;
+}
+
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact li {
+  margin: 0 20px;
+}
+
+.contact a {
+  color: #2196F3;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+  color: #BBDEFB;
+}
+
+/* Profile section styles */
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+
+.intro {
+  margin-right: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.intro:hover {
+  color: #007BFF;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 10px;
+}
+
+.language {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: transform 0.3s ease-in-out;
+}
+
+.python {
+  background-color: #3775A9;
+  color: white;
+}
+
+.html {
+  background-color: #E44D26;
+  color: white;
+}
+
+.css {
+  background-color: #2196F3;
+  color: white;
+}
+
+.js {
+  background-color: #F0DB4F;
+  color: black;
+}
+
+.language:hover {
+  transform: scale(1.1);
+}
