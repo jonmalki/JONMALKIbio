@@ -69,10 +69,8 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  background-image: url('https://source.unsplash.com/1600x900/?technology');
-  background-size: cover;
-  background-position: center;
+  height: 100vh;
+  background-color: #333;
   color: #fff;
   text-align: center;
 }
@@ -80,6 +78,7 @@ nav a:hover {
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  text-shadow: 2px 2px #000;
 }
 
 .hero p {
@@ -151,7 +150,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   background-color: #fff;
   color: #333;
 }
@@ -179,55 +178,55 @@ nav a:hover {
   margin-right: 0.5rem;
 }
 
-/* Advanced Hover Effects */
+/* Advanced HoverEffects */
 
 /* Header Navigation Link Underline */
 nav a {
-position: relative;
+  position: relative;
 }
 
 nav a::before {
-content: '';
-position: absolute;
-bottom: -5px;
-left: 0;
-width: 0;
-height: 2px;
-background-color: #ff9900;
-transition: width 0.2s ease-in-out;
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff9900;
+  transition: width 0.2s ease-in-out;
 }
 
 nav a:hover::before {
-width: 100%;
+  width: 100%;
 }
 
 /* Project Item Overlay */
 .projects li::before {
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-opacity: 0;
-background-color: rgba(0, 0, 0, 0.6);
-transition: opacity 0.2s ease-in-out;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: opacity 0.2s ease-in-out;
 }
 
 .projects li:hover::before {
-opacity: 1;
+  opacity: 1;
 }
 
 /* Contact Item Icon Bounce */
 .contact .emoji {
-animation: bounce 0.5s ease-in-out infinite alternate;
+  animation: bounce 0.5s ease-in-out infinite alternate;
 }
 
 @keyframes bounce {
-0% {
-transform: translateY(0);
-}
-100% {
-transform: translateY(-5px);
-}
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
 }
