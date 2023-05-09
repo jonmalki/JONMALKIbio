@@ -60,7 +60,7 @@ nav li {
 /* Hero styles */
 .hero {
   height: calc(100vh - 6rem);
-  background-image: url('https://source.unsplash.com/random/1600x900');
+  background-image: url('https://www.drodd.com/images14/black15.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
